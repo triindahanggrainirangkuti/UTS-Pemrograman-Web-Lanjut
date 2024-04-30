@@ -38,7 +38,36 @@
 </nav>
 
 </div>
+<div class= "container" style="margin-right: 30px">
+  <h4>Form Tambah Produk</h4>
+  <form action="" method="GET">
+    <div class="row">
+      <div class="col-sm-4">
+        <label for="">Kode Produk</label>
+        <input type="text" name="kode produk" class="form-control" placeholder="Input Kode Produk">
+      </div>
+      <div class="col-sm-4">
+        <label for="">Nama Produk</label>
+        <input type="text" name="nama produk" class="form-control" placeholder="Input Nama Produk">
+      </div>
+      <div class="col-sm-4">
+      <label for="">Jenis Produk</label>
+      <select name="jenis produk" class="form-control">
+</select>
+    </div>
+    </div>
 
+    <div class="row" mt-2>
+      <div class="col-sm-6">
+        <label for="">Harga</label>
+        <input type="" name="harga" class="form-control" placeholder="Input Harga">
+      </div>
+      
+      <div class="col-sm-6 mt-4">
+        <button class="btn btn-success" style="width: 100%" type="submit">Simpan</button>
+      </div>
+  </form>
+</div>
 
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>

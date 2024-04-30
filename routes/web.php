@@ -14,4 +14,8 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route ::get('produk',[produkController::class, 'index']);
+Route ::get('/', function(){
+    return view('produk/index');
+});
+
+Route ::resource('produk',produkController::class);

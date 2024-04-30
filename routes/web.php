@@ -19,3 +19,7 @@ Route ::get('/', function(){
 });
 
 Route ::resource('produk',produkController::class);
+
+Route ::get('array',function(){
+    return 'Halaman Array';
+});
